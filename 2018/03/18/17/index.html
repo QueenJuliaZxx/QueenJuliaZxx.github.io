@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="googlead9dc5c68da2c41a" />
+
+
+
+
+
+
+
+
+  <meta name="baidu-site-verification" content="baV2kbPkNW" />
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/favicon.ico?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="机器学习," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="红色石头的机器学习之路" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="keywords" content="机器学习">
+<meta property="og:type" content="article">
+<meta property="og:title" content="机器学习中的维度灾难">
+<meta property="og:url" content="https://redstonewill.github.io/2018/03/18/17/index.html">
+<meta property="og:site_name" content="红色石头的机器学习之路">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://img.blog.csdn.net/20170514233502869?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170514233502869?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170511231757618?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170511232142217?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170511232607160?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170511233703642?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170512102455332?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170512104505138?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170512122232781?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170515104749082?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170515110944160?">
+<meta property="og:image" content="http://img.blog.csdn.net/20170515112107896?">
+<meta property="og:updated_time" content="2018-03-18T02:23:31.789Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="机器学习中的维度灾难">
+<meta name="twitter:image" content="http://img.blog.csdn.net/20170514233502869?">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: 'ZFJHIGA2DV',
+      apiKey: 'e3baeea7f059baffe169cc0eec8adacf',
+      indexName: 'redstonewillblog',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"输入关键词进行搜索","hits_empty":"找不到关于 ${query} 的文章","hits_stats":"共找到 ${hits} 篇文章，耗时${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://redstonewill.github.io/2018/03/18/17/"/>
+
+
+
+
+
+  <title>机器学习中的维度灾难 | 红色石头的机器学习之路</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+	
+	<a href="https://github.com/RedstoneWill" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+	
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">红色石头的机器学习之路</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">公众号ID：redstonewill</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://redstonewill.github.io/2018/03/18/17/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="红色石头">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/blog-logo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="红色石头的机器学习之路">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">机器学习中的维度灾难</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-18T10:16:34+08:00">
+                2018-03-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/机器学习/" itemprop="url" rel="index">
+                    <span itemprop="name">机器学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/03/18/17/" class="leancloud_visitors" data-flag-title="机器学习中的维度灾难">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  3,967
+                </span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="http://img.blog.csdn.net/20170514233502869?" alt="这里写图片描述"><br><a id="more"></a></p>
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>本篇文章，我们将讨论所谓的“维度灾难”，并解释在设计一个分类器时它为何如此重要。在下面几节中我将对这个概念进行直观的解释，并通过一个由于维度灾难导致的过拟合的例子来讲解。</p>
+<p>考虑这样一个例子，我们有一些图片，每张图片描绘的是小猫或者小狗。我们试图构建一个分类器来自动识别图片中是猫还是狗。要做到这一点，我们首先需要考虑猫、狗的量化特征，这样分类器算法才能利用这些特征对图片进行分类。例如我们可以通过毛皮颜色特征对猫狗进行识别，即通过图片的红色程度、绿色程度、蓝色程度不同，设计一个简单的线性分类器：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">If 0.5*red+0.3*green+0.2*blue&gt;0.6: </span><br><span class="line">	return cat;</span><br><span class="line">else:</span><br><span class="line">	return dog;</span><br></pre></td></tr></table></figure>
+<p>红、绿、蓝三种颜色我们称之为特征Features，但仅仅利用这三个特征，还不能得到一个完美的分类器。因此，我们可以增加更多的特征来描述图片。例如计算图片X和Y方向的平均边缘或者梯度密度。现在总共有5个特征来构建我们的分类器了。</p>
+<p>为了得到更好的分类效果，我们可以增加更多特征，例如颜色、纹理分布和统计信息等。也许我们能得到上百个特征，但是分类器的效果会变得更好吗？答案有些令人沮丧：并不能！事实上，特征数量超过一定值的时候，分类器的效果反而下降。图1显示了这种变化趋势，这就是“维度灾难”。</p>
+<center><br><img src="http://img.blog.csdn.net/20170514233502869?" alt="这里写图片描述"><br>图1. 随着维度增加，分类器性能提升；维度增加到某值后，分类器性能下降<br></center> 
+
+<p>下一节我们将解释为什么产生这条曲线并讨论如何避免这种情况发生。</p>
+<h3 id="维度灾难与过拟合"><a href="#维度灾难与过拟合" class="headerlink" title="维度灾难与过拟合"></a>维度灾难与过拟合</h3><p>在之前引入的猫和狗的例子中，我们假设有无穷多的猫和狗的图片，然而，由于时间和处理能力限制，我们只得到10张图片（猫的图片或者狗的图片）。我们的最终目标是基于这10张图片构建一个分类器，能够正确对10个样本之外的无限多的图片进行正确分类。</p>
+<p>现在，让我们使用一个简单的线性分类器来尝试得到一个好的分类器。如果只使用一个特征，例如使用图片的平均红色程度red。</p>
+<center><br><img src="http://img.blog.csdn.net/20170511231757618?" alt="这里写图片描述"><br>图2. 单个特征对训练样本分类效果不佳<br></center>
+
+<p>图2展示了只使用一个特征并不能得到一个最佳的分类结果。因此，我们觉得增加第二个特征：图片的平均绿色程度green。</p>
+<center><br><img src="http://img.blog.csdn.net/20170511232142217?" alt="这里写图片描述"><br>图3. 增加第二个特征仍然不能线性分割，即不存在一条直线能够将猫和狗完全分开。<br></center><br>最后，我们决定再增加第三个特征：图片的平均蓝色程度，得到了三维特征空间：<br><center><br><img src="http://img.blog.csdn.net/20170511232607160?" alt="这里写图片描述"><br>图4. 增加第三个特征实现了线性可分，即存在一个平面完全将猫和狗分开来。<br></center>
+
+<p>在三维特征空间，我们可以找到一个平面将猫和狗完全分开。这意味着三个特征的线性组合可以对10个训练样本进行最佳的分类。</p>
+<center><br><img src="http://img.blog.csdn.net/20170511233703642?" alt="这里写图片描述"><br>图5. 特征越多，越有可能实现正确分类<br></center>
+
+<p>以上的例子似乎证明了不断增加特征数量，直到获得最佳分类效果，是构建一个分类器的最好方法。但是，之前图1中，我们认为情况并非如此。我们需要注意一个问题：随着特征维度的增加，训练样本的在特征空间的密度是如何呈指数型下降的？</p>
+<p>在1D空间中（图2所示），10个训练样本完全覆盖了1D特征空间，特征空间宽度为5。因此，1D下的样本密度是10/2=5。而在2D空间中（图3所示），同样是10个训练样本，它构成的2D特征空间面积为5x5=25.因此，2D下的样本密度是10/25=0.4。最后在3D空间中，10个训练样本构成的特征空间大小为5x5x5=125，因此，3D下的样本密度为10/125=0.08。</p>
+<p>如果我们继续增加特征，整个特征空间维度增加，并变得越来越稀疏。由于稀疏性，我们更加容易找到一个超平面来实现分类。这是因为随着特征数量变得无限大，训练样本在最佳超平面的错误侧的可能性将会变得无限小。然而，如果我们将高维的分类结果投影到低维空间中，将会出现一个严重的问题：</p>
+<center><br><img src="http://img.blog.csdn.net/20170512102455332?" alt="这里写图片描述"><br>图6. 使用太多特征导致过拟合。分类器学习了过多样本数据的异常特征（噪声），而对新数据的泛化能力不好。<br></center>
+
+<p>图6展示了3D的分类结果投影到2D特征空间的样子。样本数据在3D是线性可分的，但是在2D却并非如此。事实上，增加第三个维度来获得最佳的线性分类效果，等同于在低维特征空间中使用非线性分类器。其结果是，分类器学习了训练数据的噪声和异常，而对样本外的数据拟合效果并不理想，甚至很差。</p>
+<p>这个概念称为过拟合，是维度灾难的一个直接后果。图7展示了一个只用2个特征进行分类的线性分类器的二维平面图。</p>
+<center><br><img src="http://img.blog.csdn.net/20170512104505138?" alt="这里写图片描述"><br>图7. 尽管训练样本不能全都分类正确，但这个分类器的泛化能力比图5要好。<br></center><br>尽管图7中的简单的线性分类器比图5中的非线性分类器的效果差，但是图7的分类器的泛化能力强。这是因为分类器没有把样本数据的噪声和异常也进行学习。另一方面说，使用更少的特征，维度灾难就能避免，就不会出现对训练样本过拟合的现象。<br><br>图8用不同的方式解释上面的内容。假设我们只使用一个特征来训练分类器，1D特征值的范围限定在0到1之间，且每只猫和狗对应的特征值是唯一的。如果我们希望训练样本的特征值占特征值范围的20%，那么训练样本的数量就要达到总体样本数的20%。现在，如果增加第二个特征，也就是从直线变为平面2D特征空间，这种情况下，如果要覆盖特征值范围的20%，那么训练样本数量就要达到总体样本数的45%（0.45<em>0.45=0.2）。而在3D空间中，如果要覆盖特征值范围的20%，就需要训练样本数量达到总体样本数的58%（0.58</em>0.58*0.58=0.2）。<br><center><br><img src="http://img.blog.csdn.net/20170512122232781?" alt="这里写图片描述"><br>图8. 覆盖特征值范围20%所需的训练样本数量随着维度增加呈指数型增长<br></center>
+
+<p>换句话说，如果可用的训练样本数量是固定的，那么如果增加特征维度的话，过拟合就会发生。另一方面，如果增加特征维度，为了覆盖同样的特征值范围、防止过拟合，那么所需的训练样本数量就会成指数型增长。</p>
+<p>在上面的例子中，我们展示了维度灾难会引起训练数据的稀疏化。使用的特征越多，数据就会变得越稀疏，从而导致分类器的分类效果就会越差。维度灾难还会造成搜索空间的数据稀疏程度分布不均。事实上，围绕原点的数据（在超立方体的中心）比在搜索空间的角落处的数据要稀疏得多。这可以用下面这个例子来解释：</p>
+<p>想象一个单位正方形代表了2D的特征空间，特征空间的平均值位于这个单位正方形的中心处，距中心处单位距离的所有点构成了正方形的内接圆。没有落在单位圆的训练样本距离搜索空间的角落处更距离中心处更近，而这些样本由于特征值差异很大（样本分布在正方形角落处），所有难以分类。因此，如果大部分样本落在单位内接圆里，就会更容易分类。如图9所示：</p>
+<center><br><img src="http://img.blog.csdn.net/20170515104749082?" alt="这里写图片描述"><br>图9. 落在单位圆之外的训练样本位于特征空间角落处，比位于特征空间中心处的样本更难进行分类。<br></center>
+
+<p>一个有趣的问题是当我们增加特征空间的维度时，随着正方形（超立方体）的体积变化，圆形（超球体）的体积是如何变化的？无论维度如何变化，超立方体的体积都是1，而半径为0.5的超球体的体积随着维度d的变化为：<br>$$V(d)=\frac{\pi^{d/2}}{\Gamma(\frac d2+1)}0.5^d$$</p>
+<p>图10展示了随着维度d的增加，超球面的体积是如何变化的：</p>
+<center><br><img src="http://img.blog.csdn.net/20170515110944160?" alt="这里写图片描述"><br>图10. 维度d很大时，超球面的体积趋于零<br></center>
+
+<p>这表明了随着维度变得越来越大，超球体的体积趋于零，而超立方体的体积是不变的。这种令人惊讶的反直觉发现部分解释了在分类中维度灾难的问题：在高维空间中，大部分的训练数据分布在定义为特征空间的超立方体的角落处。就像之前提到的，特征空间角落处的样本比超球体内的样本更加难以进行正确分类。图11分别从2D、3D和可视化的8D超立方体（$2^8=256$个角落）的例子论证了这个结论。</p>
+<center><br><img src="http://img.blog.csdn.net/20170515112107896?" alt="这里写图片描述"><br>图11. 随着维度增加，大部分数量数据分布在角落处<br></center>
+
+<p>对于8维的超球体，大约98%的数据集中在它256个角落处。其结果是，当特征空间的维度变得无限大时，从样本点到质心的最大、最小欧氏距离的差值与其最小欧式距离的比值趋于零：<br>$$\lim_{d\rightarrow \infty}\frac{dist_{max}-dist_{min}}{dist_{min}}\rightarrow0$$</p>
+<p>因此，距离测量在高维空间中逐渐变得无效。因为分类器是基于这些距离测量的（例如Euclidean距离、Mahalanobis距离、Manhattan距离），所以低维空间特征更少，分类更加容易。同样地，在高维空间的高斯分布会变平坦且尾巴更长。</p>
+<h3 id="如何避免维度灾难"><a href="#如何避免维度灾难" class="headerlink" title="如何避免维度灾难"></a>如何避免维度灾难</h3><p>图1展示了随着维度变得很大，分类器的性能是下降的。那么问题是“很大”意味着什么？过拟合如何避免？很遗憾，在分类问题中，没有固定的规则来指定应该使用多少特征。事实上，这依赖于训练样本的数量、决策边界的复杂性和使用的是哪个分类器。</p>
+<p>如果理论上训练样本时无限多的，那么维度灾难不会发生，我们可以使用无限多的特征来获得一个完美的分类器。训练数据越少，使用的特征就要越少。如果N个训练样本覆盖了1D特征空间的范围，那么在2D中，覆盖同样密度就需要N<em>N个数据，同样在3D中，就需要N</em>N*N个数据。也就是说，随着维度增加，训练样本的数量要求随指数增加。</p>
+<p>此外，那些非线性决策边界的分类器（例如神经网络、KNN分类器、决策树等）分类效果好但是泛化能力差且容易发生过拟合。因此，当使用这些分类器的时候，维度不能太高。如果使用泛化能力好的分类器（例如贝叶斯分类器、线性分类器），可以使用更多的特征，因为分类器模型并不复杂。图6展示了高维中的简单分类器对应于地位空间的复杂分类器。</p>
+<p>因此，过拟合只在高维空间中预测相对少的参数和低维空间中预测多参数这两种情况下发生。举个例子，高斯密度函数有两类参数：均值和协方差矩阵。在3D空间中，协方差矩阵是3x3的对称阵，总共有6个值（3个主对角线值和3个非对角线值），还有3个均值，加在一起，一共要求9个参数；而在1D，高斯密度函数只要求2个参数（1个均值，1个方差）；在2D中，高斯密度函数要求5个参数（2个均值，3个协方差参数）。我们可以发现，随着维度增加，参数数量呈平方式增长。</p>
+<p>在之前的文章里我们发现，如果参数数量增加，那么参数的方差就会增大（前提是估计偏差和训练样本数量保持不变）。这就意味着，如果围度增加，估计的参数方差增大，导致参数估计的质量下降。分类器的方差增大意味着出现过拟合。</p>
+<p>另一个有趣的问题是：应该选择哪些特征。如果有N个特征，我们应该如何选取M个特征？一种方法是在图1曲线中找到性能最佳的位置。但是，由于很难对所有的特征组合进行训练和测试，所以有一些其他办法来找到最佳选择。这些方法称之为特征选择算法，经常用启发式方法（例如贪心算法、best-first方法等）来定位最佳的特征组合和数量。</p>
+<p>还有一种方法是用M个特征替换N个特征，M个特征由原始特征组合而成。这种通过对原始特征进行优化的线性或非线性组合来减少问题维度的算法称为特征提取。一个著名的维度降低技术是主成分分析法（PCA），它去除不相关维度，对N个原始特征进行线性组合。PCA算法试着找到低维的线性子空间，保持原始数据的最大方差。然而，数据方差最大不一定代表数据最显著的分类信息。</p>
+<p>最后，一项非常有用的被用来测试和避免过拟合的技术是交叉验证。交叉验证将原始训练数据分成多个训练样本子集。在分类器进行训练过程中，一个样本子集被用来测试分类器的准确性，其他样本用来进行参数估计。如果交叉验证的结果与训练样本子集得到的结果不一致，那么就表示发生了过拟合。如果训练样本有限，那么可以使用k折法或者留一发进行交叉验证。</p>
+<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><p>这篇文章我们讨论了特征选择、特征提取、交叉验证的重要性，以及避免由维度灾难导致的过拟合。通过一个过拟合的简单例子，我们复习了维度灾难的重要影响。</p>
+<p><strong><em>原文出处：</em></strong><br><a href="http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/" target="_blank" rel="noopener">http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/</a></p>
+
+      
+    </div>
+    
+    
+    
+	
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/uploads/wechat-qcode.jpg" alt="红色石头 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>欢迎您扫一扫上面的微信公众号，了解更多AI资源！</div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="红色石头 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.png" alt="红色石头 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    红色石头
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://redstonewill.github.io/2018/03/18/17/" title="机器学习中的维度灾难">https://redstonewill.github.io/2018/03/18/17/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/机器学习/" rel="tag"><i class="fa fa-tag"></i> 机器学习</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/17/16/" rel="next" title="台湾大学林轩田机器学习基石课程学习笔记16（完结） -- Three Learning Principles">
+                <i class="fa fa-chevron-left"></i> 台湾大学林轩田机器学习基石课程学习笔记16（完结） -- Three Learning Principles
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/03/18/18/" rel="prev" title="台湾大学林轩田机器学习技法课程学习笔记1 -- Linear Support Vector Machine">
+                台湾大学林轩田机器学习技法课程学习笔记1 -- Linear Support Vector Machine <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_inline_share_toolbox">
+  <script type = "text/javascript" src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5aaa217593e0eff1" async = "async" ></script>
+</div>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDg0MS8xMTM3OA=="></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/blog-logo.jpg"
+                alt="红色石头" />
+            
+              <p class="site-author-name" itemprop="name">红色石头</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">43</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/RedstoneWill" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://blog.csdn.net/red_stone1" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-contao"></i>CSDN</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/red_stone_wl/activities" target="_blank" title="知乎">
+                      
+                        <i class="fa fa-fw fa-globe"></i>知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://weibo.com/redstonewill" target="_blank" title="微博">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>微博</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:redstonewill@hotmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#介绍"><span class="nav-number">1.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#维度灾难与过拟合"><span class="nav-number">2.</span> <span class="nav-text">维度灾难与过拟合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何避免维度灾难"><span class="nav-number">3.</span> <span class="nav-text">如何避免维度灾难</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结论"><span class="nav-number">4.</span> <span class="nav-text">结论</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">红色石头</span>
+
+  
+</div>
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_pv"></span>
+</span>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共150.1k字</span>
+</div>
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("GPinP9RLLAEN4cQw3GyGH1i6-gzGzoHsz", "P23pTYCEXWROAMFxuaSGYGIa");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
