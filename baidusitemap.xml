@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/04/02/43/</loc>
+    <lastmod>2018-04-02T07:50:31.736Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《构建机器学习项目》课程笔记（2）-- 机器学习策略（下）</title>
+        <pubTime>2018-04-02T07:43:13.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达构建机器学习项目" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%9E%84%E5%BB%BA%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/04/02/42/</loc>
+    <lastmod>2018-04-02T07:41:21.824Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《构建机器学习项目》课程笔记（1）-- 机器学习策略（上）</title>
+        <pubTime>2018-04-02T07:38:22.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达构建机器学习项目" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%9E%84%E5%BB%BA%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/29/41/</loc>
+    <lastmod>2018-03-29T13:55:23.340Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《优化深度神经网络》课程笔记（3）-- 超参数调试、Batch正则化和编程框架</title>
+        <pubTime>2018-03-29T13:21:30.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达优化深度神经网络" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E4%BC%98%E5%8C%96%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/29/40/</loc>
+    <lastmod>2018-03-29T13:18:36.308Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《优化深度神经网络》课程笔记（2）-- 优化算法</title>
+        <pubTime>2018-03-29T12:58:17.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达优化深度神经网络" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E4%BC%98%E5%8C%96%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/29/39/</loc>
+    <lastmod>2018-03-29T12:52:33.838Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《优化深度神经网络》课程笔记（1）-- 深度学习的实用层面</title>
+        <pubTime>2018-03-29T12:20:35.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达优化深度神经网络" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E4%BC%98%E5%8C%96%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/27/38/</loc>
+    <lastmod>2018-03-27T12:31:16.285Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《神经网络与深度学习》课程笔记（5）-- 深层神经网络</title>
+        <pubTime>2018-03-27T12:27:13.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达神经网络与深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/26/37/</loc>
+    <lastmod>2018-03-27T03:03:07.669Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《神经网络与深度学习》课程笔记（4）-- 浅层神经网络</title>
+        <pubTime>2018-03-26T13:06:31.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达神经网络与深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/22/36/</loc>
+    <lastmod>2018-03-22T05:39:25.862Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《神经网络与深度学习》课程笔记（3）-- 神经网络基础之Python与向量化</title>
+        <pubTime>2018-03-22T05:36:02.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达神经网络与深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/20/35/</loc>
+    <lastmod>2018-03-20T12:18:40.344Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《神经网络与深度学习》课程笔记（2）-- 神经网络基础之逻辑回归</title>
+        <pubTime>2018-03-20T12:06:57.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达神经网络与深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/19/34/</loc>
+    <lastmod>2018-03-19T13:36:37.919Z</lastmod>
+    <data>
+        <display>
+        <title>Coursera吴恩达《神经网络与深度学习》课程笔记（1）-- 深度学习概述</title>
+        <pubTime>2018-03-19T13:32:32.000Z</pubTime>
+        
+        <tag>笔记</tag>
+         
+        <tag>深度学习</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>吴恩达</tag>
+         
+         
+           
+             
+              <breadCrumb title="深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="吴恩达神经网络与深度学习" url="https://redstonewill.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/33/</loc>
+    <lastmod>2018-03-18T06:44:06.907Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记16（完结） -- Finale</title>
+        <pubTime>2018-03-18T06:42:22.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/32/</loc>
+    <lastmod>2018-03-18T06:41:49.172Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记15 -- Matrix Factorization</title>
+        <pubTime>2018-03-18T06:40:21.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/31/</loc>
+    <lastmod>2018-03-18T06:39:30.623Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记14 -- Radial Basis Function Network</title>
+        <pubTime>2018-03-18T06:38:01.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/30/</loc>
+    <lastmod>2018-03-18T06:37:11.100Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记13 -- Deep Learning</title>
+        <pubTime>2018-03-18T06:32:42.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/29/</loc>
+    <lastmod>2018-03-18T06:22:18.565Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记12 -- Neural Network</title>
+        <pubTime>2018-03-18T06:20:46.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/28/</loc>
+    <lastmod>2018-03-18T06:20:07.897Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记11 -- Gradient Boosted Decision Tree</title>
+        <pubTime>2018-03-18T06:13:28.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/27/</loc>
+    <lastmod>2018-03-18T06:10:44.505Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记10 -- Random Forest</title>
+        <pubTime>2018-03-18T06:08:43.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/26/</loc>
+    <lastmod>2018-03-18T06:08:24.631Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记9 -- Decision Tree</title>
+        <pubTime>2018-03-18T06:06:39.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/25/</loc>
+    <lastmod>2018-03-18T06:02:40.916Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记8 -- Adaptive Boosting</title>
+        <pubTime>2018-03-18T06:01:09.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/24/</loc>
+    <lastmod>2018-03-18T06:00:20.499Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记7 -- Blending and Bagging</title>
+        <pubTime>2018-03-18T05:58:22.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/23/</loc>
+    <lastmod>2018-03-18T03:44:31.196Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记6 -- Support Vector Regression</title>
+        <pubTime>2018-03-18T03:23:36.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/22/</loc>
+    <lastmod>2018-03-18T03:41:38.506Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记5 -- Kernel Logistic Regression</title>
+        <pubTime>2018-03-18T03:15:40.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/21/</loc>
+    <lastmod>2018-03-18T03:00:55.902Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记4 -- Soft-Margin Support Vector Machine</title>
+        <pubTime>2018-03-18T02:58:08.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/20/</loc>
+    <lastmod>2018-03-18T02:56:48.751Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记3 -- Kernel Support Vector Machine</title>
+        <pubTime>2018-03-18T02:54:13.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/18/</loc>
+    <lastmod>2018-03-18T02:52:42.883Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记1 -- Linear Support Vector Machine</title>
+        <pubTime>2018-03-18T02:25:58.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/19/</loc>
+    <lastmod>2018-03-18T02:52:29.417Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习技法课程学习笔记2 -- Dual Support Vector Machine</title>
+        <pubTime>2018-03-18T02:50:33.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>笔记</tag>
+         
+        <tag>技法</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习技法" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/18/17/</loc>
+    <lastmod>2018-03-18T02:23:31.789Z</lastmod>
+    <data>
+        <display>
+        <title>机器学习中的维度灾难</title>
+        <pubTime>2018-03-18T02:16:34.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/15/</loc>
+    <lastmod>2018-03-17T14:19:31.276Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记15 -- Validation</title>
+        <pubTime>2018-03-17T13:58:47.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/13/</loc>
+    <lastmod>2018-03-17T14:11:56.501Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记13 -- Hazard of Overfitting</title>
+        <pubTime>2018-03-17T12:34:23.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/16/</loc>
+    <lastmod>2018-03-17T14:03:29.262Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记16（完结） -- Three Learning Principles</title>
+        <pubTime>2018-03-17T14:01:42.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/14/</loc>
+    <lastmod>2018-03-17T13:58:20.891Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记14 -- Regularization</title>
+        <pubTime>2018-03-17T13:55:35.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/12/</loc>
+    <lastmod>2018-03-17T12:33:25.012Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记12 -- Nonlinear Transformation</title>
+        <pubTime>2018-03-17T12:27:40.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/11/</loc>
+    <lastmod>2018-03-17T06:46:21.892Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记11 -- Linear Models for Classification</title>
+        <pubTime>2018-03-17T06:44:47.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/10/</loc>
+    <lastmod>2018-03-17T06:44:06.377Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记10 -- Logistic Regression</title>
+        <pubTime>2018-03-17T06:42:15.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/9/</loc>
+    <lastmod>2018-03-17T06:43:17.774Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记9 -- Linear Regression</title>
+        <pubTime>2018-03-17T06:39:42.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/8/</loc>
+    <lastmod>2018-03-17T06:39:03.797Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记8 -- Noise and Error</title>
+        <pubTime>2018-03-17T06:37:13.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/7/</loc>
+    <lastmod>2018-03-17T06:36:12.540Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记7 -- The VC Dimension</title>
+        <pubTime>2018-03-17T06:33:34.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/13/1/</loc>
+    <lastmod>2018-03-17T06:33:01.886Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记1 -- The Learning Problem</title>
+        <pubTime>2018-03-13T08:59:11.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/16/4/</loc>
+    <lastmod>2018-03-17T06:32:57.753Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记4 -- Feasibility of Learning</title>
+        <pubTime>2018-03-16T14:30:42.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/14/2/</loc>
+    <lastmod>2018-03-17T06:31:58.886Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记2 -- Learning to Answer Yes or No</title>
+        <pubTime>2018-03-14T01:39:54.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/16/3/</loc>
+    <lastmod>2018-03-17T06:31:54.198Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记3 -- Types of Learning</title>
+        <pubTime>2018-03-16T13:52:20.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/16/5/</loc>
+    <lastmod>2018-03-17T06:31:32.547Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记5 -- Training versus Testing</title>
+        <pubTime>2018-03-16T14:45:12.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://redstonewill.github.io/2018/03/17/6/</loc>
+    <lastmod>2018-03-17T06:30:32.483Z</lastmod>
+    <data>
+        <display>
+        <title>台湾大学林轩田机器学习基石课程学习笔记6 -- Theory of Generalization</title>
+        <pubTime>2018-03-17T06:24:41.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>林轩田</tag>
+         
+        <tag>基石</tag>
+         
+        <tag>笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="林轩田机器学习基石" url="https://redstonewill.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9E%97%E8%BD%A9%E7%94%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+</urlset>
