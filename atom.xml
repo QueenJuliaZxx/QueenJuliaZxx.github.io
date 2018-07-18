@@ -6,33 +6,10 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://queenjuliazxx.github.io/"/>
-  <updated>2018-07-18T10:18:17.374Z</updated>
+  <updated>2018-07-18T06:29:17.500Z</updated>
   <id>http://queenjuliazxx.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://queenjuliazxx.github.io/2018/07/18/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/"/>
-    <id>http://queenjuliazxx.github.io/2018/07/18/关于博主/</id>
-    <published>2018-07-18T07:47:48.675Z</published>
-    <updated>2018-07-18T10:18:17.374Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title: 关于博主<br>date: 2017-05-22 22:53:53<br>tags: canvas<br>categories: 前端</p><h2 id="copyright-true"><a href="#copyright-true" class="headerlink" title="copyright: true"></a>copyright: true</h2><p><i class="icon-list"></i> 我的CSDN博客地址：女王的专属领地<br><i class="icon-chevron-sign-left"></i> 我的知乎主页：女王的专属领地<br><i class="icon-adjust"></i> 我的微博：女王的微博<br><i class="icon-desktop"></i>我的GitHub：女王的GitHub<br><i class="icon-fullscreen"></i> 我的微信公众号：目标检测和深度学习</p><p>欢迎大家关注我！共同学习，共同进步！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;hr&gt;
-&lt;p&gt;title: 关于博主&lt;br&gt;date: 2017-05-22 22:53:53&lt;br&gt;tags: canvas&lt;br&gt;categories: 前端&lt;/p&gt;
-&lt;h2 id=&quot;copyright-true&quot;&gt;&lt;a href=&quot;#copyright-true&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>第一篇试水</title>
@@ -52,6 +29,31 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>关于博主</title>
+    <link href="http://queenjuliazxx.github.io/2017/05/22/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/"/>
+    <id>http://queenjuliazxx.github.io/2017/05/22/关于博主/</id>
+    <published>2017-05-22T14:53:53.000Z</published>
+    <updated>2018-07-18T10:21:14.223Z</updated>
+    
+    <content type="html"><![CDATA[<p><i class="icon-list"></i> 我的CSDN博客地址：女王的专属领地<br><i class="icon-chevron-sign-left"></i> 我的知乎主页：女王的专属领地<br><i class="icon-adjust"></i> 我的微博：女王的微博<br><i class="icon-desktop"></i>我的GitHub：女王的GitHub<br><i class="icon-fullscreen"></i> 我的微信公众号：目标检测和深度学习</p><p>欢迎大家关注我！共同学习，共同进步！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;i class=&quot;icon-list&quot;&gt;&lt;/i&gt; 我的CSDN博客地址：女王的专属领地&lt;br&gt;&lt;i class=&quot;icon-chevron-sign-left&quot;&gt;&lt;/i&gt; 我的知乎主页：女王的专属领地&lt;br&gt;&lt;i class=&quot;icon-adjust&quot;&gt;&lt;/i&gt; 我的微博
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://queenjuliazxx.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="canvas" scheme="http://queenjuliazxx.github.io/tags/canvas/"/>
     
   </entry>
   
