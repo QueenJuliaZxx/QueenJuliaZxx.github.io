@@ -47,16 +47,20 @@
   </entry>
   
   <entry>
-    <title>我在github的第一篇博文</title>
-    <link href="http://queenjuliazxx.github.io/2018/05/09/%E6%88%91%E5%9C%A8github%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
-    <id>http://queenjuliazxx.github.io/2018/05/09/我在github的第一篇博文/</id>
-    <published>2018-05-09T08:24:43.000Z</published>
-    <updated>2018-05-09T08:24:43.609Z</updated>
+    <title>前端小项目：使用canvas绘画哆啦A梦</title>
+    <link href="http://queenjuliazxx.github.io/2017/05/22/%E6%88%91%E5%9C%A8github%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
+    <id>http://queenjuliazxx.github.io/2017/05/22/我在github的第一篇博文/</id>
+    <published>2017-05-22T14:53:53.000Z</published>
+    <updated>2018-07-18T06:23:08.498Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="前端" scheme="http://queenjuliazxx.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="canvas" scheme="http://queenjuliazxx.github.io/tags/canvas/"/>
     
   </entry>
   
