@@ -1150,7 +1150,7 @@ pre .javascript .function {
   display: none;
   position: absolute;
   top: 10px;
-  left: 5px;
+  left: 10px;
 }
 @media (max-width: 767px) {
   .site-nav-toggle {
