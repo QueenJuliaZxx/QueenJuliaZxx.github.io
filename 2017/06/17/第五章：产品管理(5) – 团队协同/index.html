@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="人人都是产品经理," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="女王Queen的专属领地" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="5、团队协同一个完整的产品是由团队合作共同完成的，负责最终执行的工作人员被统称为研发团队，研发团队由产品设计、技术开发两个方面的岗位组成。产品设计人员包括产品经理、交互设计师、视觉设计师，技术开发人员包括前端、服务端、数据端、测试等方面的工程师。 在大公司里，产品、技术、设计等岗位的工作人员都被划分在各自的部门里，然后根据项目再组成虚拟小组，由项目经理或者产品经理带头执行产品的研发，所以大公司里的">
+<meta name="keywords" content="人人都是产品经理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第五章：产品管理(5) – 团队协同">
+<meta property="og:url" content="http://queenjuliazxx.github.io/2017/06/17/第五章：产品管理(5) – 团队协同/index.html">
+<meta property="og:site_name" content="女王Queen的专属领地">
+<meta property="og:description" content="5、团队协同一个完整的产品是由团队合作共同完成的，负责最终执行的工作人员被统称为研发团队，研发团队由产品设计、技术开发两个方面的岗位组成。产品设计人员包括产品经理、交互设计师、视觉设计师，技术开发人员包括前端、服务端、数据端、测试等方面的工程师。 在大公司里，产品、技术、设计等岗位的工作人员都被划分在各自的部门里，然后根据项目再组成虚拟小组，由项目经理或者产品经理带头执行产品的研发，所以大公司里的">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-07-20T07:46:50.160Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="第五章：产品管理(5) – 团队协同">
+<meta name="twitter:description" content="5、团队协同一个完整的产品是由团队合作共同完成的，负责最终执行的工作人员被统称为研发团队，研发团队由产品设计、技术开发两个方面的岗位组成。产品设计人员包括产品经理、交互设计师、视觉设计师，技术开发人员包括前端、服务端、数据端、测试等方面的工程师。 在大公司里，产品、技术、设计等岗位的工作人员都被划分在各自的部门里，然后根据项目再组成虚拟小组，由项目经理或者产品经理带头执行产品的研发，所以大公司里的">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://queenjuliazxx.github.io/2017/06/17/第五章：产品管理(5) – 团队协同/"/>
+
+
+
+
+
+  <title>第五章：产品管理(5) – 团队协同 | 女王Queen的专属领地</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+undefined
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+	<a href="https://queenjuliazxx.github.io/" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">女王Queen的专属领地</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">爱好运营的码农</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://queenjuliazxx.github.io/2017/06/17/第五章：产品管理(5) – 团队协同/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="女王Queen的专属领地">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">第五章：产品管理(5) – 团队协同</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-17T11:34:01+08:00">
+                2017-06-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/产品经理/" itemprop="url" rel="index">
+                    <span itemprop="name">产品经理</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="5、团队协同"><a href="#5、团队协同" class="headerlink" title="5、团队协同"></a>5、团队协同</h1><p>一个完整的产品是由团队合作共同完成的，负责最终执行的工作人员被统称为研发团队，研发团队由产品设计、技术开发两个方面的岗位组成。产品设计人员包括产品经理、交互设计师、视觉设计师，技术开发人员包括前端、服务端、数据端、测试等方面的工程师。</p>
+<p>在大公司里，产品、技术、设计等岗位的工作人员都被划分在各自的部门里，然后根据项目再组成虚拟小组，由项目经理或者产品经理带头执行产品的研发，所以大公司里的设计和技术等工作人员并不完全只负责一个产品项目。在小公司或者创业型团队里，可能公司或团队只有一个产品，所以大家也就共同负责这一个产品。</p>
+<p>无论工作环境如何，产品需求的执行都会涉及到各个方面的工作沟通和协调，在产品研发的过程中，团队协同的默契度决定了工作的效率。但是在研发团队中，每个人的想法都是不一样的，默契也需要很长时间的磨合，如果我们能够了解到各个岗位工作人员的想法，那么对于减少磨合周期，提升沟通和工作的效率，无疑是一个非常好的途径。</p>
+<p><strong>① 交互设计师：想的是用户体验</strong></p>
+<p>在很多公司里是没有单独的交互设计师岗位的，通常都是由产品经理直接负责，所以产品经理等于半个交互设计师。在有交互设计师岗位的公司里，由于产品经理和交互设计师都会考虑用户体验，所以多多少少产品经理也会参与到交互设计的环节，在产品需求设计的时候很容易会和交互设计师的工作重叠，因此在工作中和交互设计师产生分歧也是常事了。</p>
+<p>虽然产品经理比交互设计师更懂用户需求，并且对产品感觉、把握项目进度等等综合能力要强于交互设计师。但是交互设计师比产品经理更了解用户行为习惯，了解用户体验。所以在工作中，产品经理需要相信交互设计师在领域内的专业性，毕竟交互设计师是专业人士。</p>
+<p>交互设计是一种在用户纯主观使用产品过程中建立起来的感受，用户的行为习惯除了使用设备的基础特性外，往往操作习惯都是被引导的，至于一个按钮放在A位置还是B位置，在产品需求的本质上区别并不大，相信交互设计师的决定是经过专业思考的。所以产品经理在交互设计之前，只要充分和交互设计师沟通，表明产品需求和意图，然后只要把控交互设计没有破坏掉产品的需求和意图。</p>
+<p><strong>② 视觉设计师：想的是风格美观</strong></p>
+<p>视觉设计也是一种艺术，但凡是艺术的东西，都是一种主观的行为，没有绝对的对错之分，也没有懂与不懂，只有审美与诉求点不一样而已。所以产品经理和视觉设计师之间是很难用主观或者抽象的知识去互相说服对方的，毕竟大家的视野角度不一样。</p>
+<p>例如自行车产品，产品经理只需要把控好自行车这个产品的本质需求和意图是按照产品规划完成的即可，至于自行车的色彩风格，相信视觉设计师在色彩风格上面的美术研究要比产品经理更专业。</p>
+<p>产品设计的本身是为用户服务的，所以视觉也是一种沟通与传达，当我们对视觉设计方案有异议的时候，我们应当充实自己在视觉领域的知识，尽量使用具体形象化的表述方式描绘视觉想法。如果产生争议，我们可以多做几个视觉设计稿，让团队其他工作人员或者用户参与设计稿的体验，收集他们的建议和反馈。</p>
+<p><strong>③ 技术工程师：想的是实现模型</strong></p>
+<p>技术人员是产品从规划设计到实现的最后一步的执行人员，负责产品需求的开发工作，所以技术人员在理解需求的时候，考虑的是需求在技术层面的实现方法，想的是实现模型。</p>
+<p>当需求到了实现的时候，如果存在考虑不周全的细节时，就很容易造成技术逻辑不通，往往这些因素会导致需求不够完善，需要重新设计或者变更，这种情况就会造成技术人员之前工作量的浪费。</p>
+<p>常见的细节缺失会出现在功能的<a href="http://www.woshipm.com/it/114495.html" target="_blank" rel="noopener">逻辑流程</a>方面，比如电子商务网站在促销管理中有一个设置某个商品首次购买可以特价的功能，这个功能背后就有很多关联性的逻辑，例如在促销之前已经购买过，还能不能享受这次的特价购买？也就是首次购买是指所有时间的首次？还是从促销时间之后算起的首次？并且如何遇到提交订单后但是订单被拒绝或者客户取消，再购买算不算首次购买？这个首次购买的定义是指订单成功运出，还是说只要提交过这个商品的订单，无论有没有成功运出，都不再是首次？</p>
+<p>所以在和技术人员协同工作时，往往导致工作不顺的原因就在于产品需求不够细致，功能逻辑不通，这些缺失的因素，那怕是一个小改动，也许就要让技术人员耗费好长时间去修改，并且在需求新增、变更以及项目赶进度等等情况下，工作量都会落实到技术人员身上。所以我们在和技术人员对接工作时，应当从产品技术层面的实现模型考虑，为技术人员提供明确的、完善的产品需求文档，尽量减少和避免增加技术人员的多余工作量。</p>
+<p>团队协同的基础是建立在互相尊重和信任之上的，所以在产品经理不了解的领域里，我们应当充分尊重和信任团队里的专业人士，避免使用主观的喜好进行沟通和决策。同时产品经理也要主动和团队里的各个层面的人员保持沟通，即时跟进产品实施的进度和反馈，避免产品在执行过程中偏离方向。</p>
+<h2 id="本章索引："><a href="#本章索引：" class="headerlink" title="本章索引："></a>本章索引：</h2><p><a href="https://www.jianshu.com/p/79da856f8481" target="_blank" rel="noopener">第五章：产品管理(1~2) – 产品管理介绍和需求管理方法</a></p>
+<p><a href="https://www.jianshu.com/p/2ff9ff5cda2d" target="_blank" rel="noopener">第五章：产品管理(3) – 目标管理 </a></p>
+<p><a href="https://www.jianshu.com/p/476c92d71769" target="_blank" rel="noopener">第五章：产品管理(4) – 团队沟通</a></p>
+<p><a href="https://www.jianshu.com/p/6cfb2e9ae6dd" target="_blank" rel="noopener">第五章：产品管理(5) – 团队协同</a></p>
+<p><a href="https://www.jianshu.com/p/7503216ad158" target="_blank" rel="noopener">第五章：产品管理(6) – 项目管理</a></p>
+<h2 id="全文索引："><a href="#全文索引：" class="headerlink" title="全文索引："></a>全文索引：</h2><p><a href="https://www.jianshu.com/p/cadaaa933121" target="_blank" rel="noopener">第一章：产品介绍(1～2) – 产品经理职业和职能介绍</a></p>
+<p><a href="https://www.jianshu.com/p/6c3763aca979" target="_blank" rel="noopener">第二章：产品入门(1) – 我的入门经历分享</a></p>
+<p><a href="https://www.jianshu.com/p/426837e85639" target="_blank" rel="noopener">第三章：产品规划(1) – 产品规划介绍</a></p>
+<p><a href="https://www.jianshu.com/p/81e8adbae8c3" target="_blank" rel="noopener">第四章：产品设计(1) – 产品需求文档(PRD)介绍</a></p>
+<p><a href="https://www.jianshu.com/p/79da856f8481" target="_blank" rel="noopener">第五章：产品管理(1~2) – 产品管理介绍和需求管理方法</a></p>
+<p><a href="https://www.jianshu.com/p/ea07449a899b" target="_blank" rel="noopener">第六章：产品工作(1) – 工作环境介绍</a></p>
+<p>本文为作者 <a href="http://tangjie.me/" target="_blank" rel="noopener">产品经理@唐杰</a> 授权发布，转载请注明来源于人人都是产品经理并附带本文链接。</p>
+
+      
+    </div>
+    
+    
+    
+	<div>
+	
+		<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+	
+	</div>
+	<div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2017/06/17/第五章：产品管理(5) – 团队协同/">第五章：产品管理(5) – 团队协同</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问  的个人博客">女王的专属领地</a></p>
+  <p><span>发布时间:</span>2017年06月17日 - 11:06</p>
+  <p><span>最后更新:</span>2018年07月20日 - 15:07</p>
+  <p><span>原始链接:</span><a href="/2017/06/17/第五章：产品管理(5) – 团队协同/" title="第五章：产品管理(5) – 团队协同">http://queenjuliazxx.github.io/2017/06/17/第五章：产品管理(5) – 团队协同/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://queenjuliazxx.github.io/2017/06/17/第五章：产品管理(5) – 团队协同/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> 本博客采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 许可协议</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+      $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+        });
+    });  
+</script>
+
+      
+	</div>
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/wechat-qcode.jpg" alt=" wechat" style="width: 200px; max-width: 100%;"/>
+    <div>欢迎大家关注我的微信公众号，订阅我的博客！</div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt=" 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt=" 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/人人都是产品经理/" rel="tag"><i class="fa fa-tag"></i>人人都是产品经理</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/06/17/第五章：产品管理(4) – 团队沟通/" rel="next" title="第五章：产品管理(4) – 团队沟通">
+                <i class="fa fa-chevron-left"></i> 第五章：产品管理(4) – 团队沟通
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/06/17/第五章：产品管理(6) – 项目管理/" rel="prev" title="第五章：产品管理(6) – 项目管理">
+                第五章：产品管理(6) – 项目管理 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="" />
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">82</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.jianshu.com/u/b5731f9eb2f4" target="_blank" title="简书">
+                      
+                        <i class="fa fa-fw fa-heartbeat"></i>简书</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://blog.csdn.net/julialove102123" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/2968062085/profile?topnav=1&wvr=6" target="_blank" title="微博">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>微博</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/152380295/" target="_blank" title="豆瓣">
+                      
+                        <i class="fa fa-fw fa-douban"></i>豆瓣</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/QueenJulia/activities" target="_blank" title="知乎">
+                      
+                        <i class="fa fa-fw fa-zhihu"></i>知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/QueenJuliaZxx" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:15640657621@163.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://www.google.cn/" target="_blank" title="Google">
+                      
+                        <i class="fa fa-fw fa-google"></i>Google</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.youtube.com/" target="_blank" title="YouTube">
+                      
+                        <i class="fa fa-fw fa-youtube"></i>YouTube</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#5、团队协同"><span class="nav-number">1.</span> <span class="nav-text">5、团队协同</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#本章索引："><span class="nav-number">1.1.</span> <span class="nav-text">本章索引：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#全文索引："><span class="nav-number">1.2.</span> <span class="nav-text">全文索引：</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+
+  
+</div>
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+	
+	<script type="text/javascript"
+color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+	
+	
+	<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+	<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+	<script type="text/javascript" src="/js/src/fireworks.js"></script>
+	
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  <!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+  
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":"nietzsche","bottom":-30,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body>
+</html>
