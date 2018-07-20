@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="梁宁·产品思维30讲," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="女王Queenの专属领地" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="微信确实是这个时代最伟大的产品之一，所以咱们用两讲的时间来说一说微信是怎么迭代过来的。即使是用两课的时间来讲，也只能讲一些非常皮毛的东西。 上一讲，我们说到微信在2.2版本之后就甩开了米聊，从3.6版本之后和陌陌走上了不同的道路。 这一讲我们从微信的4.0版本说起。 迭代中，核心功能最重要 微信的1.0版本，就是一个在熟人之间可以免费发文本信息和图片的工具。 微信的2.0版本，增加了微信的语音功能">
+<meta name="keywords" content="梁宁·产品思维30讲">
+<meta property="og:type" content="article">
+<meta property="og:title" content="16-系统迭代：微信红包的意外与刻意">
+<meta property="og:url" content="http://queenjuliazxx.github.io/2017/09/10/16-系统迭代：微信红包的意外与刻意/index.html">
+<meta property="og:site_name" content="女王Queenの专属领地">
+<meta property="og:description" content="微信确实是这个时代最伟大的产品之一，所以咱们用两讲的时间来说一说微信是怎么迭代过来的。即使是用两课的时间来讲，也只能讲一些非常皮毛的东西。 上一讲，我们说到微信在2.2版本之后就甩开了米聊，从3.6版本之后和陌陌走上了不同的道路。 这一讲我们从微信的4.0版本说起。 迭代中，核心功能最重要 微信的1.0版本，就是一个在熟人之间可以免费发文本信息和图片的工具。 微信的2.0版本，增加了微信的语音功能">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-07-20T07:30:24.351Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="16-系统迭代：微信红包的意外与刻意">
+<meta name="twitter:description" content="微信确实是这个时代最伟大的产品之一，所以咱们用两讲的时间来说一说微信是怎么迭代过来的。即使是用两课的时间来讲，也只能讲一些非常皮毛的东西。 上一讲，我们说到微信在2.2版本之后就甩开了米聊，从3.6版本之后和陌陌走上了不同的道路。 这一讲我们从微信的4.0版本说起。 迭代中，核心功能最重要 微信的1.0版本，就是一个在熟人之间可以免费发文本信息和图片的工具。 微信的2.0版本，增加了微信的语音功能">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://queenjuliazxx.github.io/2017/09/10/16-系统迭代：微信红包的意外与刻意/"/>
+
+
+
+
+
+  <title>16-系统迭代：微信红包的意外与刻意 | 女王Queenの专属领地</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+undefined
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+	<a href="https://queenjuliazxx.github.io/" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">女王Queenの专属领地</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">爱好运营的码农</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-search">
+          <a href="/search.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-search"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://queenjuliazxx.github.io/2017/09/10/16-系统迭代：微信红包的意外与刻意/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="朱晓霞">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="女王Queenの专属领地">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">16-系统迭代：微信红包的意外与刻意</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-10T21:16:37+08:00">
+                2017-09-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/产品经理自我修养/" itemprop="url" rel="index">
+                    <span itemprop="name">产品经理自我修养</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>微信确实是这个时代最伟大的产品之一，所以咱们用两讲的时间来说一说微信是怎么迭代过来的。即使是用两课的时间来讲，也只能讲一些非常皮毛的东西。</p>
+<p>上一讲，我们说到微信在2.2版本之后就甩开了米聊，从3.6版本之后和陌陌走上了不同的道路。</p>
+<p>这一讲我们从微信的4.0版本说起。</p>
+<p>迭代中，核心功能最重要</p>
+<p>微信的1.0版本，就是一个在熟人之间可以免费发文本信息和图片的工具。</p>
+<p>微信的2.0版本，增加了微信的语音功能和“查找附近陌生人”的功能。到这里，微信成为了陌生人语音社交的工具，但还是个工具。</p>
+<p>微信3.0版本的时候推出了“扫一扫”、“服务号”，从这个点开始，微信开始连接世界。</p>
+<p>4.0版本的时候，微信推出了“朋友圈”，也就是说微信从通讯工具开始进化，变成了社交平台。</p>
+<p>微信在推出“朋友圈”功能之前，做了两个前置工作：3.5版本加了扫描二维码；3.6版本加入了微信的公众号。</p>
+<p>这两个动作的价值在于，一个普通人的生活没有那么多可供朋友消费的内容， 如果没有这两个前置功能，我们就直接打开朋友圈，会非常难看。</p>
+<p>4.0版本时，你在朋友圈发照片，如果朋友评论，你是没有办法回复评论的。回复评论的功能，直到4.2版本才做出来。</p>
+<p>这说明什么呢？没有必要憋大招，没有必要把所有功能全都做好再放出来。</p>
+<p>不能回复朋友在朋友圈下的评论又怎么样呢？如果我非常想回复他，大可以点对点跟他说。</p>
+<p>所以产品的核心功能点有效比什么都重要，基于核心功能附加的其他功能点没有那么重要，可以一步步来。</p>
+<p>接着就是微信的4.5版本，推出的就是今天的内容公众号，推动了一批媒体人创业，孕育了一大波网红。</p>
+<p>微信红包的发布</p>
+<p>微信的5.0版本，对微信来说有一个巨大跃升，就是加上了“绑定银行卡”。</p>
+<p>要知道在5.0版本之前，微信是不沾钱的。如果微信不加“绑定银行卡”的这个动作，没有把微信和钱连在一起，微信就是一个移动版的QQ空间，大家可以在这里晒照片、聊天、彼此点赞。 但是微信绝不会成为今天的移动生活场景，甚至是移动商业帝国。</p>
+<p>5.0版本的第一个挑战是什么呢？那时微信已经有了4.7亿用户了，大家平时用微信的社交功能已经够用了，为什么要升级到5.0版本，又为什么要把我的银行卡绑在微信上？</p>
+<p>关于这一点，我会在微信的6.0的版本里谈。但是微信得先拥有绑银行卡的能力，这个能力点是5.0版本提升的。</p>
+<p>怎么让大家升级成5.0版本？这个时候微信做了一个非常漂亮的运营，而这个运营是通过产品来完成的。它推出了一个小产品，我想你还有印象，就是“打飞机”。</p>
+<p>那个时候如果你刚升级了5.0的版本，一打开微信就直接出现一个“打飞机”游戏的界面，然后大家就都开始玩。身边的人听说了也会去升级版本，加入打飞机大战的战团，彼此PK。</p>
+<p>微信就在不知不觉间，完成了5亿用户的升级。</p>
+<p>直到今天，我们经常看到一些App拉用户升级，还是会非常傻大黑粗地吆喝一下：“你的版本过低，建议升级”。甚至更讨厌的就是直接闪退，不升级不让用。</p>
+<p>这就是产品的高低段位的差别，哪怕在你让用户选择版本这一个动作上，怎么能让用户舒舒服服地去更新，差别都是很大的。</p>
+<p>接着就是刚才已经预告过的微信6.0版本。这个时候，微信面对的难题是：用户为什么要把自己的银行卡绑定在微信上？而且还要在微信上发生钱的流通？</p>
+<p>这时候有一个重要事件就是微信红包。微信的支付团队是从财付通团队脱胎而来的。互联网圈都知道，大概有十年的时间，支付宝一直都是财付通头顶的一座大山。</p>
+<p>2013年的第三方统计，移动支付市场，支付宝的市场占有率是76%，财付通只有3.3%，20多倍的差距，这是三层楼和76层楼的体量差别。</p>
+<p>就是在2013年这一年，诞生了微信红包，改变了支付战局。</p>
+<p>微信红包是财付通下面的微信支付团队里一个小团队内部做的一个小项目，一群小孩利用自己的业余时间没有做任何的申报，用公司资源就做了。</p>
+<p>当时微信支付的总经理吴毅在回忆微信红包发布的场景时说，他当时在自己的办公室里坐着，觉得外面的办公区特别吵，一帮人在那儿又喊又叫地折腾。他就推门出去说：“你们在干什么？怎么这么吵啊？上班呢！”</p>
+<p>这些小孩就说，“我们以前说要做一个发红包的小应用，现在做出来了，特别好玩，要不你试一试？”</p>
+<p>一个是点对点红包，一个是拼手气红包，当时还是作为一个插件安装在微信里的，大家开始测试，这时候就有人顺手把一个红包丢到了腾讯的一个大群里。</p>
+<p>于是从根本上改变了支付宝和财付通战局的产品就这样发布了。在此之前，其实腾讯内部都不知道有这样一个产品。</p>
+<p>接着，我们就看到微信红包从一个小插件，换到了输入框下面的重要位置。现在红包已经成为了微信使用率最高的功能，远远大于“查找附近的陌生人”、“摇一摇”，这些微信的早期里程碑产品。</p>
+<p>圈层与圈层壁</p>
+<p>有两个故事，我想把它拆出来，再讲一下。</p>
+<p>第一个故事，我想通过这个故事讲一个概念词——圈层。我们都生活在某个圈层里，而且圈层之间是彼此不了解，也很难破壁的。</p>
+<p>比如，我原来腾讯的同事，一个1985年的男生，他做了一个短期小额贷款产品，大概每天有300多万人向他贷款。他基本上是通过大数据的方式去审核筛查，给100万多人放钱。</p>
+<p>这些人要贷多少钱呢？基本上是贷200块到1000块钱之间，贷款的时间大概是两个星期到两个月。场景就是很多人离发工资还差两个星期，但是实在没有钱撑不下去了，需要借200块钱撑两个星期。</p>
+<p>所以我当时的第一反应就是，我不能理解为什么200块钱还要贷款？</p>
+<p>他说：“这就是圈层，是有这样的圈层存在的。你去关注一下这群找我贷款的人的关系链，你会发现，几乎是同一时间，这个人的整条关系链都在借钱。”</p>
+<p>就是说这个人要借200块，而他身边几乎是人人都在借钱，没有人可以借200块钱给他。这件事情我当时听到是很震撼的。</p>
+<p>回到微信红包，也有一个故事，我非常震撼。</p>
+<p>刚才说微信红包是在2013年的某一天偶然间发布的，然后就很自然、很流畅地被大家发来发去，进入了各个互联网公司，大家都开始使用。</p>
+<p>2014年春节，微信红包就达到了它的第一个用户峰值，多少人呢？458万人。</p>
+<p>这之后的几个月时间里，微信红包的用户数就再也没有突破过这个数字。除夕肯定是红包的高发期，那一天使用微信红包的达到了458万人，之后的几个月，又从这个高峰值上掉下来了，而且再也没有达到过这个数字。</p>
+<p>这叫什么？这就叫遇到了圈层壁垒。所以每次有人问我说互联网圈的核心活跃人数有多少？我就跟他说，有458万。因为这是微信红包按照它的自然能量达到的极限值。</p>
+<p>像红包这么天然的东西，微信红包操作又是这么简单，但是在没有借助任何外部势能的情况下，将近7个月的时间，它就困在400万用户里无法突破。</p>
+<p>实际上，互联网的尝鲜爱好者就这么多，它的自然传播极限大概也就是这样了。</p>
+<p>这个圈层壁是怎么被打破的呢？春晚。</p>
+<p>我想很多人还记得，2015年微信和春晚合作。我们不得不承认，春节就是我们中国最高的文化势能之一。</p>
+<p>微信是怎么做的呢？就是摇一摇抢红包，操作足够简单，当天微信红包新增一亿用户。</p>
+<p>从400万用户到一亿用户，靠春节这样一个核心场景的触发完成。支付宝积累一亿用户用了多久呢？大概是8年，而微信支付是一天。</p>
+<p>当然，能够一天从400万用户平滑升级到一亿用户，这也是依靠腾讯强大的系统能力。不是随便一个小公司，给你一亿用户你就能接得住。</p>
+<p>支付宝红包有什么不同</p>
+<p>刚才我们说的是微信红包，虽然支付宝红包前面讲过，但这里作为对照你再看看支付宝红包有什么不一样。</p>
+<p>关于2015年的支付宝红包为什么失败有很多总结，比如社交场景不同。但我们从用户体验来讲：</p>
+<p>微信红包简简单单，发的就是红包，点开就是钱，再没有其他的东西了，拿到就很爽。</p>
+<p>支付宝红包上面则是放了一堆广告。我收发一个红包，还得给淘宝打广告，点红包没有瞄准，可能还点到广告上。这是什么呢？就是不爽。</p>
+<p>关键问题是什么？是支付宝没有认真去总结问题，同样的错误，它在2016年又犯了一次。</p>
+<p>2015年微信红包通过和春晚合作，用户一举破了亿。2016年，阿里砸了2.69亿元拿下了猴年春晚的合作资格，干什么？就是推支付宝红包。</p>
+<p>它是怎么做的呢？它当时还提了一个概念叫“集齐五福，分两亿现金”。你肯定也有印象，一堆人都集齐了四福，就差最后一张敬业福。</p>
+<p>我们来盘点数字，支付宝一共发出了82万张敬业福。而所有的用户里，集齐五福的有多少呢？79万。</p>
+<p>这样一听没什么概念。我们再扔两个数据出来，参加这个活动的用户有多少呢？最少不可能少于2000万，而支付宝的总用户是多少呢？四亿用户。</p>
+<p>我们在第一课就讲了，什么叫爽，就是被满足。被满足的感觉就是爽，不被满足就是不爽。我满怀期待，努力了半天去集福，集齐了四个，最后一个没集着，肯定不爽。</p>
+<p>2016年支付宝红包的不爽率有多高？支付宝花了2.69亿去打广告，如果有2000万用户参与支付宝抢红包的话，不爽的人大于96%。如果说是它的四亿用户都去参与了抢红包，不爽率是99.8%。</p>
+<p>总之，从此微信支付就一举改变了这种战局。</p>
+<p>现在有不同的统计数据，但总体来讲都说微信支付和支付宝两家的体量是相接近的。从我来讲当然是希望它们继续打，因为商家竞争，我们用户的体验才能变好。</p>
+<p>本讲小结</p>
+<p>到这里，6.0版本之后的微信就是咱们今天熟悉的样子，它就成了我们今天移动生活的场景。</p>
+<p>我们简单地讲了微信的六次大版本的迭代，它过去一共迭代了几百次。从最早是一个通讯工具，到社交平台，到现在的移动生活场景，甚至是移动商业帝国。</p>
+<p>它自己从一个“点”变成了一个“面”，最后形成了一个巨大的经济体，无数企业和个人，从生活到财富，光荣与梦想，都能够在微信里得到支撑，甚至在微信上完成闭环。</p>
+<p>腾讯的强大是这家公司的系统能力，它能够孕育出一批小马化腾，不断在腾讯的土壤中产生像QQ、QQ空间、微信、王者荣耀这一类奇迹级的产品。</p>
+<p>微信肯定已经成为了一个经济体，但它也只是腾讯公司的一个产品。</p>
+<p>腾讯当然是这个数字时代的一个巨大经济体，腾讯同时也是深圳市的一个企业，只是深圳的350个上市公司之一。</p>
+<p>深圳有350个上市公司，这个城市不过只有37岁，比我们今天很多得到App的用户还要年轻。</p>
+<p>罗马不是一天建成的。</p>
+<p>不管我们今天看到的是微信这个我们每天都要依赖的产品，还是腾讯这家公司，抑或是深圳这座城市，都是迭代的产物。</p>
+<p>我们自己的人生也是迭代的产物。</p>
+<p>从一个最好的内核开始，一个一个动作地持续迭代和一次一次微小的选择，就会成就你的产品以及你的人生。</p>
+<p>微信不过就是7年，深圳市也不过就是37年。</p>
+<p>今天你在一个什么样的点位上没有那么重要，重要的是在未来的几年里，你会用什么样的方式持续迭代。</p>
+<p>课后作业</p>
+<ol>
+<li><p>微信红包这样的产品都有好几个月的时间无法突破圈层壁垒，你的产品有没有遇到过这样的情况？你是怎么做的呢？</p>
+</li>
+<li><p>你的人生产品，你准备怎么迭代呢？</p>
+</li>
+</ol>
+
+      
+    </div>
+    
+    
+    
+	<div>
+	
+		<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+	
+	</div>
+	<div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2017/09/10/16-系统迭代：微信红包的意外与刻意/">16-系统迭代：微信红包的意外与刻意</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 朱晓霞 的个人博客">女王的专属领地</a></p>
+  <p><span>发布时间:</span>2017年09月10日 - 21:09</p>
+  <p><span>最后更新:</span>2018年07月20日 - 15:07</p>
+  <p><span>原始链接:</span><a href="/2017/09/10/16-系统迭代：微信红包的意外与刻意/" title="16-系统迭代：微信红包的意外与刻意">http://queenjuliazxx.github.io/2017/09/10/16-系统迭代：微信红包的意外与刻意/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://queenjuliazxx.github.io/2017/09/10/16-系统迭代：微信红包的意外与刻意/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> 本博客采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 许可协议</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+      $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+        });
+    });  
+</script>
+
+      
+	</div>
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/wechat-qcode.jpg" alt="朱晓霞 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>欢迎大家关注我的微信公众号，订阅我的博客！</div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="朱晓霞 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="朱晓霞 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/梁宁·产品思维30讲/" rel="tag"><i class="fa fa-tag"></i>梁宁·产品思维30讲</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/10/15-系统世界观：微信、米聊、陌陌/" rel="next" title="15-系统世界观：微信、米聊、陌陌">
+                <i class="fa fa-chevron-left"></i> 15-系统世界观：微信、米聊、陌陌
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/11/17-系统生死线：猎豹和它的关键任务/" rel="prev" title="17-系统生死线：猎豹和它的关键任务">
+                17-系统生死线：猎豹和它的关键任务 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="朱晓霞" />
+            
+              <p class="site-author-name" itemprop="name">朱晓霞</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">83</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.jianshu.com/u/b5731f9eb2f4" target="_blank" title="简书">
+                      
+                        <i class="fa fa-fw fa-heartbeat"></i>简书</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://blog.csdn.net/julialove102123" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/2968062085/profile?topnav=1&wvr=6" target="_blank" title="微博">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>微博</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/152380295/" target="_blank" title="豆瓣">
+                      
+                        <i class="fa fa-fw fa-douban"></i>豆瓣</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/QueenJulia/activities" target="_blank" title="知乎">
+                      
+                        <i class="fa fa-fw fa-zhihu"></i>知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/QueenJuliaZxx" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:15640657621@163.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://www.google.cn/" target="_blank" title="Google">
+                      
+                        <i class="fa fa-fw fa-google"></i>Google</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.youtube.com/" target="_blank" title="YouTube">
+                      
+                        <i class="fa fa-fw fa-youtube"></i>YouTube</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">朱晓霞</span>
+
+  
+</div>
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+	
+	<script type="text/javascript"
+color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+	
+	
+	<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+	<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+	<script type="text/javascript" src="/js/src/fireworks.js"></script>
+	
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  <!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+  
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":"nietzsche","bottom":-30,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body>
+</html>
