@@ -877,6 +877,8 @@
           
           <category> 读书 </category>
           
+          <category> 产品经理自我修养 </category>
+          
       </categories>
       
       
@@ -900,10 +902,16 @@
           
           <category> 产品经理读书笔记 </category>
           
+          <category> 读书 </category>
+          
+          <category> 产品经理自我修养 </category>
+          
       </categories>
       
       
         <tags>
+            
+            <tag> 读书 </tag>
             
             <tag> 产品经理读书 </tag>
             
@@ -1856,6 +1864,10 @@
       
       <categories>
           
+          <category> 产品经理读书笔记 </category>
+          
+          <category> 读书 </category>
+          
           <category> 产品经理自我修养 </category>
           
       </categories>
@@ -1864,6 +1876,8 @@
         <tags>
             
             <tag> 读书 </tag>
+            
+            <tag> 产品经理读书 </tag>
             
         </tags>
       
